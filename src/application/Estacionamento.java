@@ -26,7 +26,7 @@ public class Estacionamento {
         LocalDateTime finish = LocalDateTime.parse(sc.nextLine(),fmt);
         
         CarRental cr = new CarRental(start, finish, new Vehicle(carModel));       
-        System.out.print("Entre com o preoço por hora:");
+        System.out.print("Entre com o preço por hora:");
         double pricePerHour = sc.nextDouble();
         System.out.print("Entre com o preço por dia: ");
         double pricePerDay = sc.nextDouble();
